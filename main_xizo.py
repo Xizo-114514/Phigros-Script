@@ -355,5 +355,5 @@ class App(ttk.Frame):
 if __name__ == '__main__':
     tk = Tk()
     tk.title('Phisap - Revision by Xizo')
-    tk.iconbitmap('icon.ico')
+    # tk.iconbitmap('icon.ico')
     App(tk).detect_adb_devices().mainloop()
